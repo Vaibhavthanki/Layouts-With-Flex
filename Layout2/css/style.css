@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* -------------------------------------------common css-------------------------------------------- */
+.container{
+    width: 1200px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.padding{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bigheading{
+    font-size: 45px;
+    color: navy;
+}
+.mediumheading{
+    font-size: 25px;
+    color: navy;
+}
+.smallheading{
+    font-size: 20px;
+    color: navy;
+}
+.button{
+    display: table;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 16px;
+    background-color: gold;
+}
+.bgcolor{
+    background-color: lightgrey;
+}
+.contentwidth{
+    width: 50%;
+}
+.commenborder{
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+/* ------------------------------------css for header section start---------------------------------- */
+
+.toprow{
+    background-color: rgb(44, 44, 109);;
+    color: yellow;
+    padding: 10px 0;
+}
+
+.toprow p{
+    text-align: center;
+}
+
+.mainmenu{
+    display: flex;
+    justify-content: space-between;
+}
+.mainmenu .logo img{
+    max-width: 120px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu ul li a{
+    color: black;
+}
+.menu ul li{
+    display: inline-block;
+}
+.submenu li{
+    margin: 0 20px;
+}
+.help li{
+    margin: 0 30px;
+}
+.socialmedia li{
+    margin: 0 8px;
+}
+.socialmedia li a{
+    font-size: 22px;
+    color: black;
+}
+
+.menu ul li a:hover{
+    color: red;
+}
+/* --------------------------------css for header section end------------------------------------ */
+/* --------------------------------------css for banner section start---------------------------- */
+.banner{
+    position: relative;
+    background-color: rgb(44, 44, 109);
+}
+.banner img{
+    position: absolute;
+    width: 66%;
+    top: 0;
+    right: 0;
+}
+
+.content{
+    padding: 140px 60px 140px 0;
+    width: 25%;
+}
+.content h2{
+    font-size: 45px;
+    color: white;
+}
+.content span{
+    font-size: 20px;
+    color: white;
+    display: table;
+    margin: 15px 0;
+}
+
+.content p{
+    font-size: 40px;
+    color: gold;
+}
+.content sup{
+    font-size: 30px;
+    margin-left: 10px;
+    color: gray;
+}
+.content a{
+    margin-top: 20px;
+}
+/*----------------------------------------css for banner section end here----------------------------*/
+/*-----------------------------------css for categories section start here----------------------------*/
+
+.categories{
+    padding-top: 20px;
+}
+
+.popular{
+    text-align: center;
+}
+.gloves{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.commongloves{
+    display: flex;
+    justify-content: space-between;
+    width: 32%;
+    margin-bottom: 24px;
+}
+.commongloves .glovestype{
+    width: 60%;
+}
+.commongloves .glovesimage{
+    width: 40%;
+}
+.glovestype{
+    color: navy;
+}
+.glovestype h2{
+    padding: 50px 70px 50px 20px;
+    line-height: 30px;
+    word-spacing: 20px;
+}
+.glovestype a{
+    display: table;
+    border: 1px solid white;
+    padding: 5px 20px;
+    margin-left: 20px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.glovestype a:hover{
+    background: linear-gradient(to right,gray,coral);
+    color: chartreuse;
+}
+.glovesimage img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.glovesimage{
+    position: relative;
+}
+.pricebutton{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    display: none;
+}
+.glovesimage:hover .pricebutton{
+    display: block;
+}
+.pricebutton p{
+    position: absolute;
+    right: 0;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    padding: 5px 15px;
+    background-color: gainsboro;
+    color: navy;
+}
+.virus{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+.virus i{
+    margin-bottom: 30px;
+}
+/*-------------------------------------css for category end here---------------------------------------- */
+/*-----------------------------------css for antibacterial section start here-----------------------  */
+.anti{
+    display: flex;
+    justify-content: space-between;
+}
+
+.video video{
+    width: 100%;
+}
+.videocontent h2{
+    width: 50%;
+}
+.videocontent p{
+    margin: 25px 0 25px 0;
+    color: rgb(45, 45, 110);
+    font-size: 20px;
+}
+.videocontent ul{
+    display: flex;
+}
+.videocontent ul li{
+    width: 36%;
+    color: rgb(45, 45, 110);
+}
+.videocontent i{
+    margin-right: 10px;
+}
+.videocontent a{
+    margin: 40px 0 0 0;
+}
+
+
+/*-----------------------------------css for antibacterial section end here-----------------------  */
+/* ------------------------------- css for featured section start here ----------------------------- */
+
+.products h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.productlist{
+    display: flex;
+}
+
+.productcontent{
+    width: 20%;
+}
+.productcontent img{
+    width: 100%;
+    display: table;
+}
+.productcontent p{
+    margin: 0 10px 15px 10px;
+}
+.productcontent span{
+    font-weight: bold;
+    margin: 5px 10px;
+    display: block;
+}
+
+.productcontent small{
+    color: yellowgreen;
+    margin: 10px 10px 15px 10px;
+    display: table;
+}
+.productsubcontent{
+    padding: 10px 0;
+}
+.lastproduct{
+    border-right: 1px solid lightgrey;
+}
+/* ------------------------------- css for featured section end here ----------------------------- */
+/* ------------------------------- css for protection section start here ----------------------------- */
+.protectionheading{
+    text-align: center;
+}
+.protectionheading h2{
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.protectiondesc{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.protectiondesc li{
+    padding: 50px;
+    width: 33%;
+}
+.protectiondesc li i{
+    margin: 15px;
+}
+.protectiondesc li span{
+    display: block;
+    margin: 15px;
+}
+/* ------------------------------- css for protection section end here ----------------------------- */
+/* ------------------------------------ css for blog section start here ----------------------------- */
+.blogheading{
+    text-align: center;
+}
+.bloglist{
+    display: flex;
+    justify-content: space-between;
+}
+.bloglist span{
+    display: table;
+    font-size: 18px;
+    margin: 15px 0;
+}
+.bloglist li{
+    width: 33%;
+    padding: 40px;
+}
+.bloglist li img{
+    width: 100%;
+    border-radius: 6px;
+}
+/* ------------------------------------ css for blog section end here ----------------------------- */
+/* ------------------------------------ css for review section start here ----------------------------- */
+.reviewheading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.reviewheading i{
+    color: gold;
+}
+.reviewlist{
+    display: flex;
+    justify-content: space-evenly;
+}
+.reviewlist li{
+    width: 22%;
+    background-color: white;
+    padding: 20px 10px;
+    text-align: justify;
+}
+.reviewlist li p{
+    color: navy;
+    margin: 20px 5px;
+    font-size: 20px;
+}
+.reviewlist h3{
+    margin: 0 5px;
+}
+.reviewlist li i{
+    color: yellowgreen;
+    margin: 20px 5px;
+}
+/* ------------------------------------ css for review section end here ----------------------------- */
+/* ------------------------------------ css for form section start here ----------------------------- */
+.form h2{
+    margin: 15px 0;
+}
+.form .input{
+    display: flex;
+    justify-content: space-between;
+}
+.input input{
+    width: 33%;
+    padding: 10px 10px;
+    border-radius: 18px;
+    color: navy;
+    margin-bottom: 20px;
+    border-color: transparent;
+}
+.form textarea{
+    width: 100%;
+    padding: 20px 10px;
+    border-radius: 18px;
+    margin-bottom: 20px;
+    border-color: transparent;
+    color: navy;
+}
+
+.form input::placeholder{
+    color: navy;
+    font-size: 18px;
+}
+.form textarea::placeholder{
+    color: navy;
+    font-size: 18px;
+}
+/* ------------------------------------ css for form section end here ----------------------------- */
+/* ------------------------------------ css for map section start here ----------------------------- */
+.map{
+    padding: 50px;
+}
+.location{
+    display: flex;
+    justify-content: space-between;
+}
+
+.location .locationinfo{
+    width: 39%
+}
+.location .maplocation{
+    width: 59%;
+}
+.locationheading h2{
+    width: 50%;
+    margin-bottom: 5px;
+}
+.locationheading p{
+    margin-bottom: 25px;
+    color: navy;
+}
+.phonenumber a{
+    margin: 25px 0;
+}
+.phonenumber a{
+    display: table;
+    color: navy;
+}
+.phonenumber span{
+    display: table;
+    color: navy;
+}
+.phonenumber a:last-child{
+    border: 1px solid white;
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 16px;
+}
+.socialmedia a{
+    font-size: 25px;
+    margin: 20px 5px;
+    color: navy;
+}
+/* ------------------------------------ css for map section end here ----------------------------- */
+/* ------------------------------------ css for footer section start here ----------------------------- */
+footer{
+    padding-top: 50px;
+}
+.footermenu{
+    display: flex;
+    padding-bottom: 50px;
+}
+.footermenu li{
+    width: 14%;
+}
+.footermenu li a{
+    display: table;
+    margin: 10px 0;
+}
+.copyrights{
+    text-align: center;
+    padding: 25px 0;
+    background-color: blue;
+    color: white;
+}
+/* ------------------------------------ css for footer section end here ----------------------------- */

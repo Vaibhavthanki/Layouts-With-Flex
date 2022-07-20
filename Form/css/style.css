@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 50px;
+}
+section{
+    background-color: black;
+}
+.padding{
+    padding: 30px 0;
+}   
+label{
+    font-size: 20px;
+    padding: 20px 0;
+    display: block;
+}
+.commenwidth{
+    width: 50%;
+}
+input,select{
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    margin: 8px 0;
+}
+.rightpadding{
+    padding-right: 10px;
+}
+.fullwidth{
+    display: flex;
+}
+#ps{
+    padding: 13px;
+}
+/*-----------------------------------------css for heading section-----------------------------------*/
+.heading{
+    border-bottom: 3px solid black;
+}
+p{
+    padding-top: 10px;
+}
+button{
+    margin: 20px 10px 0 0;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.phone{
+    position: relative;
+}
+.phone select{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+}
+.unique{
+    padding: 10px 10px 10px 100px;
+}
+.phone select option{
+    position: absolute;
+}
+.phone select option img{
+    position: absolute;
+}
