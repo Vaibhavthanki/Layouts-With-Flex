@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*----------------------------------------commen css--------------------------------------------------*/
+.padding{
+    padding: 50px 0;
+}
+.owl-prev{
+    background: transparent!important;
+}
+.owl-next{
+    background: transparent!important;
+}
+.topmargin{
+    margin-top: 10px;
+}
+.bottommargin{
+    margin-bottom: 10px;
+}
+/*------------------------------------------------css for header section-------------------------------*/
+header{
+    border-top: 2px solid blue;
+}
+header .nav-hover{
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    padding: 20px 0;
+}
+.toprowpadding{
+    padding: .5rem 1rem;
+}
+header .nav-hover::before{
+    transition: 300ms;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #0291ca;
+}
+header .nav-link-ltr::before{
+    width: 0%;
+    bottom: 10px;
+}
+.nav-link-ltr:hover::before{
+    width: 40%;
+}
+header .nav-hover:hover{
+    color: #0291ca;
+}
+.leftborder{
+    border-left: 1px solid gray;
+}
+header .toprow li{
+    margin: 5px 0;
+    padding: 0 10px;
+}
+header li img{
+    max-width: 25px;
+}
+header a,li{
+    color: gray;
+}
+hr{
+    margin: 0;
+}
+header .navbar{
+    padding: 0;
+    margin: 0 -15px;
+}
+header a img{
+    max-width: 100px;
+}
+header .form-control{
+    padding: 0;
+}
+header #searchbox1{
+    padding: 0 5px;
+}
+.btn-outline-success{
+    border-radius: 50%;
+}
+header .navbar-collapse{
+    flex-grow: unset;
+}
+.secondrow li{
+    padding: 0 5px;
+}
+.secondrow li:last-child:hover{
+    border-bottom: none;
+}
+nav .dropdown-menu{
+    border: none;
+    background-color: unset;
+}
+header .searchbox{
+    position: relative;
+}
+.form-inline .searchtext{
+    position: absolute;
+    right: 50px;
+    display: none;
+    padding: 0 5px;
+    box-shadow: 2px 3px;
+}
+.headerform :hover+.searchtext{
+    display: inline-block;
+}
+/*----------------------------------------------css for banner section-------------------------------*/
+.banner{
+    width: 100%;
+    position: relative;
+    color: #ffffff;
+}
+.banner .owl-dots{
+    display: none;
+}
+#slider1 .owl-nav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#slider1 .owl-prev span{
+    font-size: 25px;
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 0 15px 7px 15px;
+    margin: 0;
+}
+#slider1 .owl-next span{
+    font-size: 25px;
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 0 15px 7px 15px;
+    margin: 0;
+}
+.bgoverly{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-35%);
+    z-index: 1;
+    line-height: 25px;
+}
+.banner label{
+    display: block;
+}
+.banner input{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.banner select{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.banner button{
+    margin: 30px 15px 30px 0;
+    padding: 5px 50px;
+}
+.staypadding{
+    padding: 4px 5px;
+}
+.datepadding{
+    padding: 3px;
+}
+
+.banner .nav-link{
+    background-color:#0291ca;
+    color: white;
+}
+.banner .nav-link.active{
+    color: #0291ca;
+}
+#hotels form{
+    background-color: white;
+    color: black;
+}
+#flights form{
+    background-color: cornflowerblue;
+}
+#vacations form{
+    background-color: burlywood;
+}
+#cars form{
+    background-color: wheat;
+}
+.banner .bannerform{
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+}
+.banner i{
+    margin-right: 5px;
+}
+.banner form{
+    padding: 16px 0 0 0;
+}
+/*------------------------------------------css for welcome section----------------------------------*/
+.welcome{
+    padding-top: 50px;
+}
+/*------------------------------------------css for icon section-------------------------------------*/
+.icon{
+    color: #0291ca;
+    padding-bottom: 50px;
+}
+.icon i{
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: #0291ca;
+    color: white;
+    padding: 15px;
+    transform: translate(0,20px);
+    outline: 7px solid white;
+}
+.icon .search{
+    position: relative;
+}
+.icon h4{
+    padding: 40px 0 15px 0;
+    background-color: #f0e6e6;
+}
+/*------------------------------------------css for bestoffers section---------------------------------*/
+.bestoffers{
+    background-color: #f0e6e6;
+}
+.bestoffers .navposition{
+    position: relative;
+    padding-bottom: 30px;
+}
+#slider2 .owl-nav{
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+}
+#slider2 .owl-dots{
+    display: none;
+}
+#slider2 .owl-prev{
+    font-size: 25px;
+    border: 2px solid #0291ca;
+    border-radius: 50%;
+}
+#slider2 .owl-next{
+    font-size: 25px;
+    border: 2px solid #0291ca;
+    border-radius: 50%;
+}
+#slider2 .owl-nav span{
+    padding: 0 8px;
+    color: #0291ca;
+}
+.bestoffers small{
+    text-decoration: line-through;
+}
+.bestoffers aside{
+    font-size: 22px;
+    color: #0291ca;
+}
+#slider2{
+    padding-top: 30px;
+}
+/*-------------------------------------------css for destination section--------------------------------*/
+
+.destination a{
+    border: 1px solid black;
+    color: black;
+    border-radius: 50%;
+    padding: 0 4px;
+    font-size: 15px;
+}
+.destinationpadding{
+    padding-top: 30px;
+}
+.destination .card{
+    transition: 0.5s all ease-in-out;
+}
+.destination .card:hover{
+    box-shadow: 5px 5px;
+    transform: scale(1.1);
+}
+.destination h3{
+    padding: 15px;
+}
+/*----------------------------------------css for footer section---------------------------------*/
+footer{
+    padding: 50px 0 10px 0;
+}
+footer hr{
+    background: white;
+}
+footer ul{
+    list-style-type: none;
+}
+.footerlogo img{
+    max-width: 140px;
+}
+footer a{
+    color: gray;
+}
+footer a:hover{
+    text-decoration: none;
+}
+.aboutus li:nth-child(3){
+    font-size: 14px;
+}
+.categories a i{
+    border: 1px solid gray;
+    padding: 0 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.commenhover a{
+    transition: 0.3s ease-in-out;
+    display: table;
+}
+.commenhover a:hover{
+    transform: scale(1.1);
+    color: red;
+}
+.quicklinks a:hover{
+    transform: scale(1.1);
+}
+.categories li a, .quicklinks li a{
+    margin-bottom: 5px;
+}
+.quicklinks a i{
+    border: 1px solid gray;
+    padding: 0 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.support form{
+    display: flex;
+}
+.support input{
+    padding: 5px;
+    border: 1px solid transparent;
+    border-right: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.support button{
+    background: transparent;
+    background-color: #0291ca;
+    padding: 3px;
+    border: 1px solid transparent;
+    border-left: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.support button i{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 4px;
+    color: white;
+    font-size: 14px;
+    width: 26px;
+    height: 26px;
+}
+.support form{
+    position: relative;
+}
+.footerheading{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+}
+.social-icon img{
+    max-width: 46px;
+}
+.support a{
+    display: table;
+    border: none;
+}
+.support li:nth-child(3){
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.support li:nth-child(4) a{
+    font-size: 24px;
+    color: #0291ca;
+    margin-bottom: 5px;
+}
+.copyrights {
+    color: gray;
+    margin-top: 10px;
+}   
+.copyrights a{
+    border: 1px solid #0291ca;
+    padding: 10px 10px 5px 10px;
+    border-radius: 8px;
+    display: table;
+}
